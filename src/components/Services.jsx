@@ -13,19 +13,19 @@ const services = [
         accent: 'emerald',
         deliverables: ['REST APIs', 'Auth flows', 'MongoDB models'],
     },
-    {
-        icon: 'fas fa-gauge-high',
-        title: 'Performance Cleanup',
-        description: 'Improve slow pages, broken layouts, mobile spacing, and details that make an app feel unfinished.',
-        accent: 'amber',
-        deliverables: ['Speed fixes', 'Bug cleanup', 'Mobile polish'],
-    },
+    // {
+    //     icon: 'fas fa-gauge-high',
+    //     title: 'Performance Cleanup',
+    //     description: 'Improve slow pages, broken layouts, mobile spacing, and details that make an app feel unfinished.',
+    //     accent: 'amber',
+    //     deliverables: ['Speed fixes', 'Bug cleanup', 'Mobile polish'],
+    // },
     {
         icon: 'fas fa-wand-magic-sparkles',
-        title: 'Portfolio & UI Polish',
-        description: 'Modern dark UI, sharper sections, better spacing, and clearer presentation for your work.',
+        title: 'AI & Automation',
+        description: 'AI-Powered Business Solutions and AI & Automation solutions.',
         accent: 'purple',
-        deliverables: ['Visual refresh', 'Section redesign', 'Interaction polish'],
+        deliverables: ['AI Solutions','AI Agent', 'WhatsApp Automation'],
     },
 ];
 
@@ -50,7 +50,7 @@ const Services = () => {
                         </span>
                         <h2 className="mt-5 text-3xl md:text-4xl font-bold text-white leading-tight">What I Can Build</h2>
                         <p className="mt-4 text-gray-400 leading-relaxed">
-                            Focused web development work for portfolios, dashboards, full-stack apps, and existing projects that need a cleaner finish.
+                            Full-stack web applications, business systems, AI-powered tools, and automation solutions designed around real-world requirements
                         </p>
 
                         <div className="mt-6 grid grid-cols-3 gap-3">
@@ -86,7 +86,7 @@ const Services = () => {
                                             <h3>{service.title}</h3>
                                             <p>{service.description}</p>
                                         </div>
-                                        <i className="fas fa-arrow-right text-slate-600 transition-colors duration-300 group-hover:text-blue-300"></i>
+                                        {/* <i className="fas fa-arrow-right text-slate-600 transition-colors duration-300 group-hover:text-blue-300"></i> */}
                                     </div>
 
                                     <div className="mt-4 flex flex-wrap gap-2">

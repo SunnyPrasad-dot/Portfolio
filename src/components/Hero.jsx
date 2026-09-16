@@ -33,7 +33,7 @@ const Hero = () => {
         });
 
         // Typing Effect
-        const words = ['Web Developer', 'Mern Stack Dev', 'Frontend Developer', 'Backend Developer', 'Creative Coder'];
+        const words = ['Full-Stack Applications', 'AI-Powered Solutions', 'Scalable Web Systems'];
         let wi = 0, ci = 0, deleting = false, delay = 200;
         let typingTimeout;
 
@@ -108,10 +108,10 @@ const Hero = () => {
                             Hi, I'm <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">Sunny Prasad</span>
                         </h1>
                         <h2 className="text-2xl md:text-3xl font-semibold mb-6 flex items-center text-gray-300">
-                            I'm a &nbsp;<span className="text-blue-400 border-r-2 border-blue-400 pr-[2px] animate-pulse drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]" ref={typingRef}></span>
+                            I Build &nbsp;<span className="text-blue-400 border-r-2 border-blue-400 pr-[2px] animate-pulse drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]" ref={typingRef}></span>
                         </h2>
                         <p className="text-lg text-gray-400 mb-8 max-w-lg leading-relaxed">
-                            I Build Full Stack Web Applications &amp; Building responsive React frontends, scalable Node.js APIs, and MongoDB-powered applications.
+                            I Build Full Stack Web Applications, Responsive React frontends, scalable Node.js APIs, and MongoDB-powered applications &amp; AI-Powered Business Solutions,.
                         </p>
                         <div className="flex flex-col sm:flex-row flex-wrap gap-4">
                             <button onClick={() => document.querySelector('#projects').scrollIntoView({behavior: 'smooth'})} className="btn-primary">
@@ -169,11 +169,11 @@ const Hero = () => {
                             </div>
                             <div className="hero-tech-pill hero-float-delayed absolute right-0 top-[32%] z-20 border-emerald-400/40 text-emerald-200">
                                 <i className="fab fa-node-js text-emerald-400"></i>
-                                <span>Node API</span>
+                                <span>Node.js API</span>
                             </div>
                             <div className="hero-tech-pill hero-float-slow absolute right-6 bottom-[20%] z-20 border-amber-300/40 text-amber-100">
-                                <i className="fab fa-js-square text-amber-300"></i>
-                                <span>JavaScript</span>
+                                <i className="fas fa-wand-magic-sparkles text-amber-300"></i>
+                                <span>AI Solutions</span>
                             </div>
                             <div className="absolute left-8 bottom-[17%] z-20 rounded-2xl border border-purple-400/30 bg-slate-950/90 px-4 py-3 shadow-xl backdrop-blur-md hero-status-card">
                                 <div className="flex items-center gap-2 text-xs text-slate-400">

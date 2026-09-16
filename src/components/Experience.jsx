@@ -1,18 +1,18 @@
 const responsibilities = [
-    'Developed responsive user interfaces using React.js.',
+    'Develop responsive and scalable web applications using React.js.',
     'Built and integrated RESTful APIs using Node.js and Express.js.',
-    'Worked with MongoDB databases and data management.',
+    'Design and manage MongoDB databases for business applications.',
     'Implemented CRUD operations and authentication features.',
     'Collaborated with team members during live project development.',
-    'Used Git and GitHub for version control and project collaboration.',
+    'Build AI-Powered Business Solutions and AI & Automation solutions.',
     'Participated in debugging, testing, and deployment processes.',
-    'Built multiple frontend and full-stack practice projects to strengthen development skills.',
+    'Built multiple practice projects to strengthen development skills.',
 ];
 
 const projectHighlights = [
-    { value: '01', label: 'Live team project completed' },
-    { value: '02', label: 'Second live project near completion' },
-    { value: '03+', label: 'Personal full-stack builds' },
+    { value: '01', label: 'Full-Stack Web Development' },
+    { value: '02', label: 'AI & Automation Solutions' },
+    { value: '03+', label: 'AI-Powered Business Solutions' },
 ];
 
 const skillsUsed = [
@@ -22,6 +22,8 @@ const skillsUsed = [
     'Express.js',
     'MongoDB',
     'Mongoose',
+    'AI Integration',
+    'AI Automation',
     'Git',
     'GitHub',
     'REST APIs',
@@ -52,12 +54,12 @@ const Experience = () => {
                         <div>
                             <span className="inline-flex items-center gap-2 rounded-full border border-purple-400/25 bg-purple-400/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-purple-200">
                                 <i className="fas fa-briefcase"></i>
-                                2025 - Present
+                                Present
                             </span>
                             <h3 className="mt-5 text-3xl md:text-4xl font-bold text-white leading-tight">MERN Stack Developer</h3>
-                            <p className="mt-2 text-blue-300 font-medium">Live Projects & Team Collaboration</p>
+                            <p className="mt-2 text-blue-300 font-medium">Full-Stack Web Development & AI Solutions  ||  Live Projects & Team Collaboration</p>
                             <p className="mt-5 text-gray-400 leading-relaxed max-w-3xl">
-                                Worked collaboratively on real-world web applications, contributing to frontend development, backend integration, database management, API development, debugging, testing, and team-based project workflows.
+                                Building responsive web applications, REST APIs, database-driven systems, automation workflows, and AI-powered solutions with modern JavaScript technologies. Collaborating on real-world projects across frontend development, backend integration, database management, API development, debugging, testing, and team-based workflows.
                             </p>
                         </div>
 

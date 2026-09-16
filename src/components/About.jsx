@@ -18,10 +18,10 @@ const About = () => {
                     <div className="lg:w-2/3 text-left" data-aos="fade-left">
                         <h3 className="text-2xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">My Journey</h3>
                         <p className="text-gray-400 mb-5 leading-relaxed text-lg">
-                           I'm a passionate MERN Stack Developer focused on building modern web applications using React, Node.js, Express.js and MongoDB.
+                           I'm a Full-Stack Developer specializing in MERN stack development, AI-powered solutions, and business automation. I build modern web applications using React, Node.js, Express.js, and MongoDB.
                         </p>
                         <p className="text-gray-400 mb-6 leading-relaxed text-lg">
-                            I enjoy solving real-world problems through clean code, responsive design, and scalable backend architecture. Currently improving my skills through personal projects and full-stack application development.
+                           I enjoy turning real-world requirements into practical digital solutions—from responsive web applications and backend systems to AI-powered assistants, chatbots, and automated workflows. I continuously improve my skills by building and working on real-world projects.
                         </p>
                         
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
@@ -30,8 +30,8 @@ const About = () => {
                                     <i className="fas fa-code text-blue-500"></i>
                                 </div>
                                 <div>
-                                    <h4 className="font-medium text-white">Clean Code</h4>
-                                    <p className="text-sm text-gray-500">Maintainable &amp; efficient</p>
+                                    <h4 className="font-medium text-white">Full-Stack Development</h4>
+                                    <p className="text-sm text-gray-500">Frontend &amp; Backend</p>
                                 </div>
                             </div>
                             
@@ -40,8 +40,8 @@ const About = () => {
                                     <i className="fas fa-users text-green-500"></i>
                                 </div>
                                 <div>
-                                    <h4 className="font-medium text-white">Collaborative</h4>
-                                    <p className="text-sm text-gray-500">Team player &amp; communicator</p>
+                                    <h4 className="font-medium text-white">AI-Powered Solutions</h4>
+                                    <p className="text-sm text-gray-500">AI Tools &amp; AI Solutions</p>
                                 </div>
                             </div>
                             
@@ -51,7 +51,7 @@ const About = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-medium text-white">Problem Solver</h4>
-                                    <p className="text-sm text-gray-500">Analytical &amp; creative</p>
+                                    <p className="text-sm text-gray-500">Practical Solutions</p>
                                 </div>
                             </div>
                             
@@ -60,8 +60,8 @@ const About = () => {
                                     <i className="fas fa-rocket text-amber-500"></i>
                                 </div>
                                 <div>
-                                    <h4 className="font-medium text-white">Fast Learner</h4>
-                                    <p className="text-sm text-gray-500">Adaptable &amp; curious</p>
+                                    <h4 className="font-medium text-white">Continuous Learning</h4>
+                                    <p className="text-sm text-gray-500">Always Improving</p>
                                 </div>
                             </div>
                         </div>
